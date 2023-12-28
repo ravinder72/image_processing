@@ -82,3 +82,6 @@ while True:
         cv2.imshow('Result', stackedImage)
         cv2.waitKey(300)
         count += 1
+
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
